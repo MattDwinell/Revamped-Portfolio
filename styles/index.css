@@ -1,0 +1,20 @@
+#creative-image{
+    width:40%;
+    height:auto;
+    margin:0px;
+
+}
+#normal-image{
+    width:40%;
+    height:auto;
+
+
+}
+.nav-wrapper{
+    background-color: #006064;
+}
+#image-row{
+    display: inline-block;
+    margin:0px;
+    padding:0px;
+}
