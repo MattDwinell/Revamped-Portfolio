@@ -1,11 +1,11 @@
 #creative-image{
-    width:40%;
+    width:100%;
     height:auto;
     margin:0px;
 
 }
 #normal-image{
-    width:40%;
+    width:100%;
     height:auto;
 
 
@@ -14,7 +14,25 @@
     background-color: #006064;
 }
 #image-row{
-    display: inline-block;
+    display: block;
     margin:0px;
     padding:0px;
+}
+.right-image{
+    float:left;
+    width: 50%;
+    height: 40vh;
+    background-image: url("./../images/dwinell_normal.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+}
+.left-image{
+    float: left;
+    width: 50%;
+    height: 40vh;
+    background-image: url("./../images/dwinell_creative.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
 }
