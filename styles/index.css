@@ -24,8 +24,9 @@
     height: 40vh;
     background-image: url("./../images/dwinell_normal.jpg");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     overflow: hidden;
+    background-size: 400px auto;
 }
 .left-image{
     float: left;
@@ -34,5 +35,6 @@
     background-image: url("./../images/dwinell_creative.jpg");
     background-repeat: no-repeat;
     background-position: left;
-    overflow: hidden;
+    overflow: clip;
+    background-size: 400px auto;
 }
