@@ -1,4 +1,22 @@
 .port-img{
     width: 100%;
     height: auto;
+    border: 2px solid #d32f2f;
+    border-radius: 3px;
+}
+body{
+    background-color: #b2ebf2;
+}
+.container{
+    background-color: white;
+}
+.center{
+    font-weight: bold;
+}
+.nav-wrapper{
+    background-color: #006064;
+}
+.project{
+    margin-bottom: 25px;
+    box-shadow: 0px 10px grey;
 }
