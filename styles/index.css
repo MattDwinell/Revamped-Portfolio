@@ -21,6 +21,40 @@
 .right{
     text-align: right;
 }
+.left-message{
+    margin-top: 5vh;
+    text-align: left;
+    height: 20vh;
+}
+.center-message{
+    height: 20vh;
+    text-align: center;
+}
+.descriptors{
+    font-weight: 800;
+    transition: font-size 2s, color 2s;
+}
+.descriptors:hover{
+    font-size: 2em;
+    color: #004d40;
+   
+}
+.left-image img{
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s;
+}
+.left-image:hover img{
+    width:110%;
+}
+.test{
+    height: 40vh;
+    background-image: url('./../images/dwinell_normal.jpg');
+    transition: background-image 2s;
+    background-repeat: no-repeat;
+}
+.test:hover{
+    background-image: url('./../images/dwinell_creative.jpg');
+}
 /* .right-image{
     float:left;
     width: 25%;
