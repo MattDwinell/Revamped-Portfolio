@@ -18,23 +18,24 @@
     margin:0px;
     padding:0px;
 }
-.right-image{
+.right{
+    text-align: right;
+}
+/* .right-image{
     float:left;
-    width: 50%;
-    height: 40vh;
-    background-image: url("./../images/dwinell_normal.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
+    width: 25%;
+    height: 80vh;
+
     overflow: hidden;
-    background-size: 400px auto;
+    direction: rtl;
+  
 }
 .left-image{
     float: left;
-    width: 50%;
-    height: 40vh;
-    background-image: url("./../images/dwinell_creative.jpg");
-    background-repeat: no-repeat;
-    background-position: left;
-    overflow: clip;
-    background-size: 400px auto;
-}
+    width: 25%;
+    height: 80vh;
+    overflow: hidden;
+    direction: ltr;
+ 
+  
+}  */
