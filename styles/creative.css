@@ -1,6 +1,3 @@
-body{
-    font-family: 'Roboto', sans-serif;
-}
 .nav-wrapper{
     background-color: #006064;
 }
@@ -9,3 +6,19 @@ body{
     text-align: center;
     width: 100%;
 }
+body{
+      opacity: 1;
+      transition: 1s opacity;
+  }
+  
+
+  
+  body.fade-out {
+    background-color:white;
+    opacity: 0;
+    transition: 1s opacity;
+  }
+  body.faded-out{
+    opacity: 0;
+    transition: 1s opacity;
+  }
