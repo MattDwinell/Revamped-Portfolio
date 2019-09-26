@@ -1,5 +1,9 @@
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #b2ebf2;
+}
+.container{
+    background: white;
 }
 #creative-image{
     width:100%;
@@ -17,7 +21,7 @@ body{
     display: block;
     margin:0px;
     padding:0px;
-    background-color: #e3f2fd;
+    background-color: white;
     
 }
 .right{
@@ -38,7 +42,7 @@ body{
 }
 .about-desc{
     padding-top: 10px;
-    background-color: #e3f2fd;
+    background-color: white;
     font-weight: 500;
 }
 .descriptors:hover{
