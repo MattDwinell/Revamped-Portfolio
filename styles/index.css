@@ -1,14 +1,14 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 #creative-image{
     width:100%;
     height:auto;
     margin:0px;
-
 }
 #normal-image{
     width:100%;
     height:auto;
-
-
 }
 .nav-wrapper{
     background-color: #006064;
@@ -39,6 +39,7 @@
 .about-desc{
     padding-top: 10px;
     background-color: #e3f2fd;
+    font-weight: 500;
 }
 .descriptors:hover{
     font-size: 2em;
@@ -51,7 +52,7 @@
     height: 50vh;
     background-image: url('./../images/dwinell_normal.jpg');
     background-size: 100% auto;
-    transition: background-image 1.5s;
+    transition: background-image .9s;
     transition-timing-function: ease-in;
 }
 .left-image:hover{
