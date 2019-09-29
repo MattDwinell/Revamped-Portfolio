@@ -1,6 +1,21 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #b2ebf2;
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    background-color:white;
+    opacity: 0;
+    transition: 1s opacity;
+  }
+.container{
+    background-color: white;
+    padding: 0px 0px 10px 0px;
+}
+.form-row{
+    padding: 0px 6px 0px 6px;
 }
 .nav-wrapper{
     background-color: #006064;

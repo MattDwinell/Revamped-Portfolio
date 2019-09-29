@@ -1,7 +1,14 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #b2ebf2;
+    opacity: 1;
+    transition: 1s opacity;
 }
+body.fade-out {
+    background-color:white;
+    opacity: 0;
+    transition: 1s opacity;
+  }
 .container{
     background: white;
 }
@@ -68,6 +75,9 @@ background-image: url('./../images/dwinell_creative.jpg');
 }
 .left-image:hover img{
     width:110%;
+}
+.links{
+    font-size: 1.7em;
 }
 /* .right-image{
     float:left;

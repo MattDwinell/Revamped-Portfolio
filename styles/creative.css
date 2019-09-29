@@ -1,3 +1,9 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #b2ebf2; 
+    opacity: 1;
+    transition: 1s opacity;
+}
 .nav-wrapper{
     background-color: #006064;
 }
@@ -6,10 +12,11 @@
     text-align: center;
     width: 100%;
 }
-body{
-      opacity: 1;
-      transition: 1s opacity;
-  }
+.container{
+    background-color: white;
+ 
+}
+
   
 
   

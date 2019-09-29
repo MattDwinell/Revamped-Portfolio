@@ -7,7 +7,14 @@
 body{
     background-color: #b2ebf2;
     font-family: 'Roboto', sans-serif;
+    opacity: 1;
+    transition: 1s opacity;
 }
+body.fade-out {
+    background-color:white;
+    opacity: 0;
+    transition: 1s opacity;
+  }
 .container{
     background-color: white;
 }
